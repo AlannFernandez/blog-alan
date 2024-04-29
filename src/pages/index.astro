@@ -1,0 +1,58 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>&lt;HELLO WORLD /&gt;</h1>
+      <p>
+        ¡Hola a todos los apasionados de la programación y bienvenidos a nuestro
+        rinconcito en la web! Soy Alan, un entusiasta desarrollador de software
+        que estando aburrido un Domingo cualquiera decidió empezar este blog.
+      </p>
+
+      <p>
+        Este blog es mi pequeño rincón virtual donde puedo compartir mi amor por
+        la programación y todo lo que he aprendido en mi viaje como
+        desarrollador. Aquí encontrarás una variedad de temas, desde conceptos
+        básicos hasta técnicas avanzadas, todo en un esfuerzo por ayudar a otros
+        desarrolladores como tú a superar los desafíos que yo mismo he
+        enfrentado.
+      </p>
+      <p>
+        ¿Por qué un blog? Bueno, la verdad es que la programación es más que
+        solo mi trabajo: es mi pasión. A lo largo de los años, he experimentado
+        los altibajos de la programación, desde la emoción de resolver un
+        problema complejo hasta la frustración de lidiar con código desordenado
+        y difícil de entender.
+      </p>
+      <p>
+        Es por eso que decidí iniciar este blog como un proyecto personal, una
+        manera de compartir lo que he aprendido y tal vez, solo tal vez, ayudar
+        a otros a evitar algunos de los obstáculos con los que me he topado en
+        mi viaje.
+      </p>
+      <p>
+        Entonces, si eres un estudiante ansioso por aprender, un desarrollador
+        experimentado en busca de consejos o simplemente alguien curioso por
+        descubrir más sobre el mundo de la programación, ¡este es el lugar para
+        ti!
+      </p>
+      <p>
+        Así que adelante, ponte cómodo y explora. Espero que encuentres algo que
+        te inspire y te ayude en tu propio viaje de programación. ¡Nos vemos en
+        el código!
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
